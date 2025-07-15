@@ -53,6 +53,18 @@ public class EncapsuleTest {
 		kb.setBank("우리은행");
 		kb.setId("101-21-1001");
 		kb.show();
+		
+		Book book1 = new Book("삼국지","나관중","10001",10);
+		book1.show();
+		
+		boolean isOK = book1.borrowBook();
+		
+		if(isOK) {
+			System.out.println(book1.getTitle()+"도서대출성공");
+		}else {
+			System.out.println(book1.getTitle()+"도서대출실해");
+		}
+		book1.show();
 	}
 
 }
