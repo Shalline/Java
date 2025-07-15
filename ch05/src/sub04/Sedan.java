@@ -1,4 +1,4 @@
-package sub4;
+package sub04;
 
 // 부모 클래서 Car를 상속받는거
 public class Sedan extends Car {

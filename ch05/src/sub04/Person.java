@@ -1,4 +1,4 @@
-package sub4;
+package sub04;
 
 public class Person {
 	
