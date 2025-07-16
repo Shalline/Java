@@ -51,6 +51,25 @@ public class PolyTest {
 		arr[1].move();
 		arr[2].move();
 		
+		// 다형서 확인문제
+		
+		Cat cat = new Cat();
+		Dog dog = new Dog();
+		
+		dog.bark();
+		dog.petty();
+		
+		cat.bark();
+		cat.petty();
+		
+		printSound(dog);
+		printSound(cat);
+		
+	}
+	
+	public static void printSound(Pet pet) {
+		pet.bark();
+		pet.petty();
 	}
 
 }
