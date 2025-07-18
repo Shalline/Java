@@ -5,6 +5,7 @@ public class Book {
 	String title;
 	String author;
 	
+	// 앞에 public 생략된거하고 보면됨
 	void show() {System.out.println(title + " " + author);}
 	
 	public Book() {

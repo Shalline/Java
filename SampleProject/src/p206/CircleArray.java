@@ -13,8 +13,11 @@ class Circle{
 
 public class CircleArray {
 	public static void main(String[] args) {
-		Circle [] c;
-		c = new Circle[5];
+		// 보통 이렇게 생성과 선언을 분리하지는 않는데 책이라서
+		// 잘 알라고 해놓은 듯 
+		// Circle[] c = new Circle[5];
+		Circle [] c; // 선언
+		c = new Circle[5]; // 생성
 		
 		for(int i=0; i<c.length; i++)
 			c[i] = new Circle(i);
